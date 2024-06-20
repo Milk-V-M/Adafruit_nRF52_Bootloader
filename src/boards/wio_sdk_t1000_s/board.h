@@ -40,6 +40,7 @@
 #define BUTTONS_NUMBER        2
 #define BUTTON_1              _PINNUM(0, 6)  // Primary Button
 #define BUTTON_2              _PINNUM(0, 18) // unusable: RESET
+#define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
 // BLE OTA
